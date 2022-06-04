@@ -16,7 +16,7 @@ pipeline{
 
   post{
       failure{
-        emailext compresslog:true,
+        emailext compressLog: true,
         attachLog: true,
         recipientProviders: [culprint(),developers(),requestors(),brokenBuildSuspects()],
         to: '2310307125@qq.com'
