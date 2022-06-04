@@ -1,5 +1,4 @@
 ---
 - hosts: example
-  remote_user: root
   tasks:
   - debug: msg="{{ lookup('env','BUILD_TAG') }}"
