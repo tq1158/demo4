@@ -22,6 +22,7 @@ pipeline{
         compressLog: true,
         attachLog: true,
         recipientProviders: [culprits(),developers(),requestor(),brokenBuildSuspects()],
+        from:'wgtx1158@163.com',
         to: '2310307125@qq.com'
         )
       }
