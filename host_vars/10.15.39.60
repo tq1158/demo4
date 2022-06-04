@@ -1,3 +1,3 @@
-ansible_ssh_user: tomsen
+ansible_ssh_user: root
 ansible_become_method: sudo
-ansible_ssh_pass: wisco01?
+ansible_ssh_pass: Wd98!_ia8raR1
